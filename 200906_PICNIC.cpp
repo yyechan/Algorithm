@@ -6,9 +6,7 @@
 using namespace std;
 
 int N, M;
-
 bool isMatched[10];
-
 int answer;
 
 void dfs(vector<vector<int>> &vec , int dep ,int C) {
